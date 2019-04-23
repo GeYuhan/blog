@@ -45,33 +45,27 @@ kramdown:
   input: GFM                            # use Github Flavored Markdown !important
 
 
-
 # Disqus settings
 #disqus_username: _your_disqus_short_name_
 
-'''
 # Duoshuo settings
-duoshuo_username: huxblog
+#duoshuo_username: huxblog
 # Share component is depend on Comment so we can NOT use share only.
-duoshuo_share: true                     # set to false if you want to use Comment without Sharing
-'''
+#duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
 
-{% comment %}
 # Analytics settings
 # Baidu Analytics
-ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
+#ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
 # Google Analytics
-ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
-{% endcomment %}
+#ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+#ga_domain: huangxuan.me
 
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Go ahead."
-sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
-
+sidebar-avatar: /img/avatar-geyuhan.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 # Featured Tags
@@ -79,24 +73,14 @@ featured-tags: true                     # whether or not using Feature-Tags
 featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
 
 
-{% comment %}
 # Friends
 friends: [
     {
-        title: "Hux Blog",
-        href: "http://huangxuan.me"
+        #title: "Hux Blog",
+        #href: "http://huangxuan.me"
     },{
-        title: "Foo",
-        href: "#"
-    },{
-        title: "Bar",
-        href: "#"
-    },{
-        title: "Example Friends",
-        href: "#"
-    },{
-        title: "It helps SEO",
-        href: "#"
+        #title: "Foo",
+        #href: "#"
     }
+
 ]
-{% endcomment %}
